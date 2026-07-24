@@ -7,7 +7,7 @@
 # (see static/app.js), and screen.py's ImageGrab / webcam.py's cv2 calls
 # already no-op safely when unavailable.
 fastapi
-uvicorn[standard]
+gunicorn
 pydantic>=2
 python-multipart
 requests
